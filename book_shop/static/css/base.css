@@ -1,0 +1,23 @@
+
+ #navbar{
+            padding-top: 0;
+            padding-bottom: 0;
+        }
+        .nav2 {
+            padding-top: 16px;
+        }  .n {
+               padding-left: 61em;
+           }
+        .n a{
+            text-decoration: none;
+
+        }
+        .bg-success {
+            background-color: #124c86e6 !important;
+        }
+        hr {
+            margin-top: 0.5rem;
+        }
+
+
+
