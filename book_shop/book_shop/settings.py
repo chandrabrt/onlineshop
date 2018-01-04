@@ -41,8 +41,7 @@ INSTALLED_APPS = [
     'cart',
     'orders',
     'paypal.standard.ipn',
-    'payment'
-
+    'payment',
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -154,64 +153,64 @@ EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 PAYPAL_RECEIVER_EMAIL = 'chandra2khadka4@gmail.com'
 PAYPAL_TEST = True
 
-LOGGING = {
-    'version': 1,
-    'disable_existing_loggers': False,
-    'formatters': {
-        'verbose': {
-            'format': '%(levelname)s %(asctime)s %(module)s %(process)d %(thread)d %(message)s'
-        },
-        'simple': {
-            'format': '%(levelname)s %(message)s'
-        },
-    },
-    # 'filters': {
-    #     'special': {
-    #         '()': 'project.logging.SpecialFilter',
-    #         'foo': 'bar',
-    #     },
-    #     'require_debug_true': {
-    #         '()': 'django.utils.log.RequireDebugTrue',
-    #     },
-    # },
-    'handlers': {
-        'console': {
-            'level': 'DEBUG',
-            # 'filters': ['require_debug_true'],
-            'class': 'logging.StreamHandler',
-            'formatter': 'verbose'
-        },
-        # 'file': {
-        #     'level': 'DEBUG',
-        #     'class': 'logging.FileHandler',
-        #     'filename': 'mylog_test.log',
-        #     'formatter': 'verbose'
-        # },
-
-        # 'mail_admins': {
-        #     'level': 'ERROR',
-        #     'class': 'django.utils.log.AdminEmailHandler',
-        #     'filters': ['special']
-        # }
-    },
-    'loggers': {
-        # 'django': {
-        #     'handlers': ['console'],  # console or file
-        #     'propagate': True,
-        #     'level': 'DEBUG',
-        # },
-        # 'django.request': {
-        #     'handlers': ['console'],
-        #     'level': 'DEBUG',
-        #     'propagate': False,
-        # },
-        # For performance reasons, SQL logging is only enabled when settings.DEBUG is set to True
-        # ref. https://docs.djangoproject.com/en/1.11/topics/logging/#django-db-backends
-        'django.db.backends': {
-            'handlers': ['console'],
-            'propagate': False,
-            'level': 'DEBUG',
-        },
-
-    }
-}
+# LOGGING = {
+#     'version': 1,
+#     'disable_existing_loggers': False,
+#     'formatters': {
+#         'verbose': {
+#             'format': '%(levelname)s %(asctime)s %(module)s %(process)d %(thread)d %(message)s'
+#         },
+#         'simple': {
+#             'format': '%(levelname)s %(message)s'
+#         },
+#     },
+#     # 'filters': {
+#     #     'special': {
+#     #         '()': 'project.logging.SpecialFilter',
+#     #         'foo': 'bar',
+#     #     },
+#     #     'require_debug_true': {
+#     #         '()': 'django.utils.log.RequireDebugTrue',
+#     #     },
+#     # },
+#     'handlers': {
+#         'console': {
+#             'level': 'DEBUG',
+#             # 'filters': ['require_debug_true'],
+#             'class': 'logging.StreamHandler',
+#             'formatter': 'verbose'
+#         },
+#         # 'file': {
+#         #     'level': 'DEBUG',
+#         #     'class': 'logging.FileHandler',
+#         #     'filename': 'mylog_test.log',
+#         #     'formatter': 'verbose'
+#         # },
+#
+#         # 'mail_admins': {
+#         #     'level': 'ERROR',
+#         #     'class': 'django.utils.log.AdminEmailHandler',
+#         #     'filters': ['special']
+#         # }
+#     },
+#     'loggers': {
+#         # 'django': {
+#         #     'handlers': ['console'],  # console or file
+#         #     'propagate': True,
+#         #     'level': 'DEBUG',
+#         # },
+#         # 'django.request': {
+#         #     'handlers': ['console'],
+#         #     'level': 'DEBUG',
+#         #     'propagate': False,
+#         # },
+#         # For performance reasons, SQL logging is only enabled when settings.DEBUG is set to True
+#         # ref. https://docs.djangoproject.com/en/1.11/topics/logging/#django-db-backends
+#         'django.db.backends': {
+#             'handlers': ['console'],
+#             'propagate': False,
+#             'level': 'DEBUG',
+#         },
+#
+#     }
+# }
