@@ -25,7 +25,8 @@ urlpatterns = [
     url(r'^cart/', include('cart.urls', namespace='cart')),
     url(r'^orders/', include('orders.urls', namespace='orders')),
     url(r'^payment/', include('payment.urls' , namespace='payment')) ,
-    url(r'^paypal/', include('paypal.standard.ipn.urls')) ,
+    url(r'^paypal/', include('paypal.standard.ipn.urls')),
+    # url(r'^ckeditor/', include('ckeditor_uploader.urls')) ,
 
 ]
 if settings.DEBUG:

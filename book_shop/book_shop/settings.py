@@ -42,6 +42,8 @@ INSTALLED_APPS = [
     'orders',
     'paypal.standard.ipn',
     'payment',
+    # 'ckeditor',
+    # 'ckeditor_uploader',
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -130,6 +132,11 @@ USE_L10N = True
 
 USE_TZ = True
 
+LANGUAGES = (
+    ('uk', 'Українська'),
+    ('en', 'English'),
+#    ('pl', 'Polski'),
+)
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
@@ -153,3 +160,91 @@ EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 PAYPAL_RECEIVER_EMAIL = 'chandra2khadka4@gmail.com'
 PAYPAL_TEST = True
 
+# LOGGING = {
+#     'version': 1,
+#     # True if the default configuration is completely overridden
+#     'disable_existing_loggers': False,
+#     'formatters': {
+#          'verbose': {
+#              'format' :
+#                  '%(asctime)s: %(name)s, line %(lineno)d: '
+#                  '%(levelname)s: %(message)s ',
+#              'datefmt' : "%d/%b/%Y %H:%M:%S"
+#          },
+#          'simple': {
+#              'format': '%(levelname)s %(message)s'
+#          },
+#      },
+#     'filters': {
+#         'require_debug_true': {
+#             '()': 'django.utils.log.RequireDebugTrue'
+#         },
+#         'require_debug_false': {
+#             '()': 'django.utils.log.RequireDebugFalse'
+#         },
+#
+#     },
+#     'handlers': {
+#         'file': {
+#                'level': 'DEBUG',
+#                'class': 'logging.handlers.RotatingFileHandler',
+#                'formatter': 'verbose',
+#                'filename': os.path.join(BASE_DIR,  'log/'+datetime.datetime.now().strftime('%Y-%m-%d')+'.log'),
+#                'maxBytes': 1024*1024*5, # 5Mb
+#                'backupCount': 5
+#            },
+#         'mail_admins': {
+#             'level': 'ERROR',
+#             'class': 'django.utils.log.AdminEmailHandler',
+#             'filters': ['require_debug_false']
+#         },
+#         'console': {
+#             'level': 'DEBUG',
+#             'filters': ['require_debug_true'],
+#             'class': 'logging.StreamHandler',
+#             'formatter': 'verbose',
+#         },
+#         'null': {
+#             "class": 'django.utils.log.NullHandler',
+#         }
+#     },
+#     'loggers': {
+#         'django.request': {
+#             'handlers': ['mail_admins', 'console'],
+#             'level': 'ERROR',
+#             'propagate': True,
+#         },
+#         'django': {
+#             'handlers': ['null', ],
+#         },
+#         'django.db.backends': {
+#             'handlers': ['null', ],
+#             'propagate': False,
+#         },
+#         'py.warnings': {
+#             'handlers': ['null', ],
+#         },
+#         '': {
+#             'handlers': ['console', 'file'],
+#             'level': "DEBUG",
+#         },
+#
+#     },
+# }
+
+####################################
+    ##  CKEDITOR CONFIGURATION ##
+####################################
+
+# CKEDITOR_JQUERY_URL = 'https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js'
+#
+# CKEDITOR_UPLOAD_PATH = 'uploads/'
+# CKEDITOR_IMAGE_BACKEND = "pillow"
+#
+# CKEDITOR_CONFIGS = {
+#     'default': {
+#         'toolbar': None,
+#     },
+# }
+
+###################################

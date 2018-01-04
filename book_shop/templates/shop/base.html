@@ -26,7 +26,12 @@
             margin-top: 0.5rem;
         }
 
-
+.text {
+    position: relative;
+    margin-top: 31px;
+    transform: skew(14deg,0) rotate(-35deg);
+    margin-left: -52px;
+}
     </style>
 </head>
 <body>
@@ -35,15 +40,19 @@
 {% include 'shop/nav_bottom.html' %}
 <br>
 {% block breadcumb %}
-    {#     <div class="breadcrumb">#}
-    {#    <a class="breadcrumb-item" href="#">Home</a>#}
-    {#    <a class="breadcrumb-item" href="#">Fruit</a>#}
-    {#    <span class="breadcrumb-item active">Pears</span>#}
-    {#    </div>#}
+{#         <div class="breadcrumb">#}
+{#        <a class="breadcrumb-item" href="#">Home</a>#}
+{#        <a class="breadcrumb-item" href="#">Fruit</a>#}
+{#        <span class="breadcrumb-item active">Pears</span>#}
+{#        </div>#}
 {% endblock %}
     {% block content %}
 
     {% endblock %}
+
+    {% block footer %}
+        {% include 'footer.html' %}
+    {% endblock footer %}
 {% include 'shop/script.html' %}
 
 </body>

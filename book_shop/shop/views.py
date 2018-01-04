@@ -1,18 +1,20 @@
-from django.shortcuts import get_object_or_404,HttpResponse
+from django.shortcuts import get_object_or_404
 from django.views.generic import ListView, DetailView
-from .models import Product, Category
+from .models import Product, Category, Advertisement
 from cart.forms import CartAddProductForm
 import requests
 
 
 class ProductListView(ListView):
     model = Product
+    # paginate_by = 3
     template_name = 'shop/product/list.html'
 
     def get_context_data(self, **kwargs):
         context = super(ProductListView, self).get_context_data()
         context['categories'] = Category.objects.all()
         context['products'] = Product.objects.filter(available=True)
+        context['ads'] = Advertisement.objects.all()
 
         if 'category_slug' in self.kwargs:
             category = get_object_or_404(Category, slug=self.kwargs['category_slug'])
