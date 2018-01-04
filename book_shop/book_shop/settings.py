@@ -148,7 +148,7 @@ STATICFILES_DIRS = [
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(os.path.dirname(BASE_DIR), "media_cdn")
 
-CART_SESSION_ID = 'cart'
+CART_SESSION_ID = 'cartss'
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 PAYPAL_RECEIVER_EMAIL = 'chandra2khadka4@gmail.com'

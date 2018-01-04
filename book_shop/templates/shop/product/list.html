@@ -83,6 +83,74 @@
                     </a>
                 </div>
                 <!-------------------------------------------------------->
+{#                <h3 style="padding-top: 10px">{% if category %}{{ category.name }} Products{% else %}All Products{% endif %}</h3>#}
+{#                <hr>#}
+{##}
+{#                <div class="row">#}
+{#                    {% if product_list %}#}
+{#                        {% for product in products %}#}
+{#                            <div class="col-md-3">#}
+{#                                <br>#}
+{#                                <div class="card" style="border: 1px solid royalblue">#}
+{##}
+{#                                        {% if category.slug == 'free' %}#}
+{#                                            Free#}
+{#                                        {% else %}#}
+{#                                            <p class="btn btn-dark"> ${{ product.price }}</p>#}
+{#                                        {% endif %}#}
+{##}
+{#                                    <a href="{{ product.get_absolute_url }}">#}
+{#                                        <img src="{% if product.image %}{{ product.image.url }}#}
+{#                            {%else %}#}
+{#                               {% static "img/programing_lang.jpg" %}{% endif %}" width="100%" height="170em">#}
+{##}
+{#                                    </a>#}
+{#                                    <div class="card-body">#}
+{##}
+{#                                        <a  class="card-title" href="{{ product.get_absolute_url }}">{{ product.name }}</a><br>#}
+{#                                        {% if category.slug == 'free' %}#}
+{#                                            Free#}
+{#                                        {% else %}#}
+{#                                            <p class="card-text"> ${{ product.price }}</p>#}
+{#                                        {% endif %}#}
+{#                                        <a href="{{ product.get_absolute_url }}" class="btn btn-primary float-right">#}
+{#                                            <i class="fa fa-shopping-cart fa-lg" aria-hidden="true" style="color: white">#}
+{#                                            </i>&nbsp;Buy</a>#}
+{##}
+{#                                    </div>#}
+{#                                </div>#}
+{#                            </div>#}
+{#                        {% endfor %}#}
+{#                    {% endif %}#}
+{#                </div>#}
+            </div>
+        </div>
+
+
+
+     <div class="row">
+            <div class="col-md-3">
+                <br>
+                <br>
+                <br>
+                <br>
+                <img src="{% static 'img/beauty.gif' %}" alt="" class="img-fluid" style="height: 20em; width: 100%">
+                <br>
+                <div class="card">
+                    <div class="card-body ">
+                        <h4 class="text-center">Earn BitCoin now</h4>
+                        <hr>
+                        <a href="">
+                        <img src="{% static 'img/Will-Blockchain-and-the-Token-Economy-Happen-in-2018.gif' %}" alt="" class="img-fluid">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-9">
+
+
+                <!-------------------------------------------------------->
                 <h3 style="padding-top: 10px">{% if category %}{{ category.name }} Products{% else %}All Products{% endif %}</h3>
                 <hr>
 
@@ -113,7 +181,9 @@
 {#                                        {% else %}#}
 {#                                            <p class="card-text"> ${{ product.price }}</p>#}
 {#                                        {% endif %}#}
-                                        <a href="{{ product.get_absolute_url }}" class="btn btn-primary float-right"><i class="fa fa-shopping-cart fa-lg" aria-hidden="true" style="color: white"></i>&nbsp;Buy</a>
+                                        <a href="{{ product.get_absolute_url }}" class="btn btn-primary float-right">
+                                            <i class="fa fa-shopping-cart fa-lg" aria-hidden="true" style="color: white">
+                                            </i>&nbsp;Buy</a>
 
                                     </div>
                                 </div>
