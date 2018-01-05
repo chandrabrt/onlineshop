@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="41889b23-2a3e-41ff-9455-6c9d611ef06c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/book_shop/locale/django.mo" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/book_shop/locale/django.po" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/book_shop/static/js/owl.carosusel.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/book_shop/templates/footer.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/book_shop/templates/shop/pagination.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/book_shop/db.sqlite3" afterPath="$PROJECT_DIR$/book_shop/db.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/book_shop/book_shop/settings.py" afterPath="$PROJECT_DIR$/book_shop/book_shop/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/book_shop/book_shop/urls.py" afterPath="$PROJECT_DIR$/book_shop/book_shop/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/book_shop/shop/admin.py" afterPath="$PROJECT_DIR$/book_shop/shop/admin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/book_shop/shop/models.py" afterPath="$PROJECT_DIR$/book_shop/shop/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/book_shop/shop/urls.py" afterPath="$PROJECT_DIR$/book_shop/shop/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/book_shop/shop/views.py" afterPath="$PROJECT_DIR$/book_shop/shop/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/book_shop/templates/shop/base.html" afterPath="$PROJECT_DIR$/book_shop/templates/shop/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/book_shop/templates/shop/product/detail.html" afterPath="$PROJECT_DIR$/book_shop/templates/shop/product/detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/book_shop/templates/shop/product/list.html" afterPath="$PROJECT_DIR$/book_shop/templates/shop/product/list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_cdn/css/base.css" afterPath="$PROJECT_DIR$/static_cdn/css/base.css" />
-    </list>
+    <list default="true" id="41889b23-2a3e-41ff-9455-6c9d611ef06c" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -63,7 +45,7 @@
         <entry file="file://$PROJECT_DIR$/book_shop/templates/shop/product/list.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="94">
-              <caret line="111" column="33" lean-forward="true" selection-start-line="111" selection-start-column="33" selection-end-line="111" selection-end-column="33" />
+              <caret line="111" column="33" lean-forward="false" selection-start-line="111" selection-start-column="33" selection-end-line="111" selection-end-column="33" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -75,7 +57,7 @@
         <entry file="file://$PROJECT_DIR$/book_shop/static/css/base.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="234">
-              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -705,7 +687,7 @@
     <entry file="file://$PROJECT_DIR$/book_shop/static/css/base.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -721,7 +703,7 @@
     <entry file="file://$PROJECT_DIR$/book_shop/templates/shop/product/list.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="94">
-          <caret line="111" column="33" lean-forward="true" selection-start-line="111" selection-start-column="33" selection-end-line="111" selection-end-column="33" />
+          <caret line="111" column="33" lean-forward="false" selection-start-line="111" selection-start-column="33" selection-end-line="111" selection-end-column="33" />
           <folding>
             <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
           </folding>
