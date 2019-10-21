@@ -79,7 +79,7 @@ sorl-thumbnail==12.4.1
 stripe==1.77.0
 tinycss2==0.6.1
 tornado==4.5.2
-Twisted==17.9.0
+Twisted==19.7.0
 urllib3==1.22
 vine==1.1.4
 virtualenv==15.1.0
